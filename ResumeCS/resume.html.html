@@ -1,0 +1,503 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Masakazu Bando</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Masakazu Bando
+					</h1>
+					<h2>
+						Programmer&amp;Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">bando@mit.edu</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(650) 281-7692</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://masakazubando.com">http://masakazubando.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Masakazu is a MIT EECS student currently taking a GAP year program at MakeSchool.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/koroket">koroket</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Facebook
+					</strong>
+						<div class="url">
+							<a href="https://www.facebook.com/aznmb">https://www.facebook.com/aznmb</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>MakeSchool</span>
+					<span class="date">
+						2014-08-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="www.makeschool.com">www.makeschool.com</a>
+				</div>
+				<div class="position">
+					iOS/Web/Backend Programmer/Developer
+				</div>
+				<div class="summary">
+					<p>The MakeSchool Gap Year is a 1 year college supplement that prepares students for a career as a founder or developer. Students learn mobile and web development, computer science theory, and development focused career skills. The Gap Year culminates with an internship at a tech startup. Students frequently meet founders and developers to build a network in Silicon Valley.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>CodeMentor</span>
+					<span class="date">
+						2014-10-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="www.codementor.com">www.codementor.com</a>
+				</div>
+				<div class="position">
+					Teacher
+				</div>
+				<div class="summary">
+					<p>Codementor connects people with experts for urgent one on one issue solving, technical advice, pair programming, and code review.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>MakeGamesWithUs</span>
+					<span class="date">
+						2014-06-01 — 2014-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="www.makegameswith.us">www.makegameswith.us</a>
+				</div>
+				<div class="position">
+					iOS Programmer/Developer
+				</div>
+				<div class="summary">
+					<p>Summer Program that focuses on shipping one&#x27;s own iOS game</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Massachusetts Institution of Technology</span>
+					<span class="date">
+						2014-08-20 — 
+					</span>
+				</h4>
+				<div class="area">
+					Electrical Engineering &amp; Computer Science
+				</div>
+				<div class="studyType">
+					Undergraduate
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>College of San Mateo</span>
+					<span class="date">
+						2012-01-10 — 2014-06-20
+					</span>
+				</h4>
+				<div class="area">
+					Mathematics/ComputerScience/Physics
+				</div>
+				<div class="studyType">
+					Undergraduate
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Into to Programming: Java</li>
+					<li>Java: Data Structures</li>
+					<li>C++: Programming</li>
+					<li>C++: Data Structures</li>
+					<li>Multivariable Calculus</li>
+					<li>Linear Algebra</li>
+					<li>Differential Equations</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Foothill College</span>
+					<span class="date">
+						2013-08-20 — 2014-01-01
+					</span>
+				</h4>
+				<div class="area">
+					Mathematics/ComputerScience
+				</div>
+				<div class="studyType">
+					Undergradutate
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Intermediate Java</li>
+					<li>Discrete Mathematics</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>1st Place CodeDay Hackathon</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2014-02-10
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>CodeDay</strong>
+				</div>
+				<div class="summary">
+					At this 24 hour hackthon, I presented my Android mobile alarm clock application that requires users to solve programmically generated calculus problems prior to turning off the alarm.
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web developement</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>JavaScript</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Mobile developement</h4>
+				</div>
+				<ul class="keywords">
+					<li>iOS/Objective-C</li>
+					<li>Android/JavaScript/Java</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Backend developement</h4>
+				</div>
+				<ul class="keywords">
+					<li>NodeJS</li>
+					<li>MongoDB</li>
+					<li>Express</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Japanese</strong>
+				</div>
+				<div class="fluency">
+					Fluent
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Chinese</strong>
+				</div>
+				<div class="fluency">
+					Conversational
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Conversational
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	</div>
+	
+	</body>
+</html>

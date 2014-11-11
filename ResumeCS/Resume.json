@@ -1,0 +1,129 @@
+{
+  "basics": {
+    "name": "Masakazu Bando",
+    "label": "Programmer&Developer",
+    "picture": "",
+    "email": "bando@mit.edu",
+    "phone": "(650) 281-7692",
+    "website": "http://masakazubando.com",
+    "summary": "Masakazu is a MIT EECS student currently taking a GAP year program at MakeSchool.",
+    "location": {
+      "address": "663 Newell Rd",
+      "postalCode": "94303",
+      "city": "Palo Alto",
+      "countryCode": "US",
+      "region": "Caliofornia"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "koroket",
+      "url": "https://github.com/koroket"
+    },{
+      "network": "Facebook",
+      "username": "",
+      "url": "https://www.facebook.com/aznmb"
+    }]
+  },
+  "work": [{
+    "company": "MakeSchool",
+    "position": "iOS/Web/Backend Programmer/Developer",
+    "website": "www.makeschool.com",
+    "startDate": "2014-08-01",
+    "summary": "The MakeSchool Gap Year is a 1 year college supplement that prepares students for a career as a founder or developer. Students learn mobile and web development, computer science theory, and development focused career skills. The Gap Year culminates with an internship at a tech startup. Students frequently meet founders and developers to build a network in Silicon Valley."
+  },{
+    "company": "CodeMentor",
+    "position": "Teacher",
+    "website": "www.codementor.com",
+    "startDate": "2014-10-01",
+    "summary": "Codementor connects people with experts for urgent one on one issue solving, technical advice, pair programming, and code review."
+  },{
+    "company": "MakeGamesWithUs",
+    "position": "iOS Programmer/Developer",
+    "website": "www.makegameswith.us",
+    "startDate": "2014-06-01",
+    "endDate": "2014-08-01",
+    "summary": "Summer Program that focuses on shipping one's own iOS game"
+  }],
+  "education": [
+  {
+    "institution": "Massachusetts Institution of Technology",
+    "area": "Electrical Engineering & Computer Science",
+    "studyType": "Undergraduate",
+    "startDate": "2014-08-20"
+  },{
+    "institution": "College of San Mateo",
+    "area": "Mathematics/ComputerScience/Physics",
+    "studyType": "Undergraduate",
+    "startDate": "2012-01-10",
+    "endDate": "2014-06-20",
+    "gpa": "3.5",
+    "courses": [
+      "Into to Programming: Java",
+      "Java: Data Structures",
+      "C++: Programming",
+      "C++: Data Structures",
+      "Multivariable Calculus",
+      "Linear Algebra",
+      "Differential Equations"
+    ]
+  },{
+    "institution": "Foothill College",
+    "area": "Mathematics/ComputerScience",
+    "studyType": "Undergradutate",
+    "startDate": "2013-08-20",
+    "endDate": "2014-01-01",
+    "gpa": "4.0",
+    "courses": [
+      "Intermediate Java",
+      "Discrete Mathematics"
+    ]
+  }],
+  "skills": [{
+    "name": "Web developement",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "JavaScript"
+    ]
+  },{
+    "name": "Mobile developement",
+    "level": "Master",
+    "keywords": [
+      "iOS/Objective-C",
+      "Android/Java"
+    ]
+  },{
+    "name": "Backend developement",
+    "level": "Master",
+    "keywords": [
+      "NodeJS",
+      "MongoDB",
+      "Express"
+    ]
+  },{
+    "name": "Tools",
+    "level": "Master",
+    "keywords": [
+      "SpriteBuilder",
+      "Cocos2d",
+      "XCode"
+    ]
+  }
+  ],
+  "awards": [{
+    "title": "1st Place CodeDay Hackathon",
+    "date": "2014-02-10",
+    "awarder": "CodeDay",
+    "summary": "At this 24 hour hackthon, I presented my Android mobile alarm clock application that requires users to solve programmically generated calculus problems prior to turning off the alarm."
+  }],
+  "languages": [{
+    "language": "Japanese",
+    "fluency": "Fluent"
+  },{
+    "language": "Chinese",
+    "fluency": "Conversational"
+  },{
+    "language": "Spanish",
+    "fluency": "Conversational"
+  }]
+}
